@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/title">
+    <Button
+        android:id="@+id/title_back"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/button"
+        android:text="返回"
+        android:textColor="#fff"/>
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="单词菌"
+        android:textColor="#fff"
+        android:textSize="18sp"/>
+    <Button
+        android:id="@+id/title_exit"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/button"
+        android:text="首页"
+        android:textColor="#fff"/>
+</LinearLayout>

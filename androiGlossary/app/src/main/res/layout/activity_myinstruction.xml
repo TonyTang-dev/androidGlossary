@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.test.rem_word.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:padding="5dp"
+            android:text="尊敬的用户您好：\n\t一、单词菌是一款集背单词、查询单词、添加备忘、设置个性化资料等功能于一身的应用
+                    \n\t二、首次启动单词菌会提示您输入您的个性化昵称并决定是否查看个性启动视频，之后不再回到这个页面
+                    \n\t三、启动应用首页显示您的昵称，签名等信息，下方的单词进度实时统计您所背的单词个数。最上方
+                    显示单词查询输入框，您可点击“搜索”按钮进行单词查询
+                    \n\t四、主页顶部有标题栏从左到右包括滑动菜单按钮，返回按钮，退出程序按钮，休闲卡片放松启动按钮，休闲卡片提供放松图片以放松眼睛
+                    \n\t五、滑动菜单和主页第三页面包括我的资料查看，词库查看和操作说明，您可通过点击获取具体服务，滑动菜单可通过从左屏幕边缘划出
+                    \n\t六、导航栏中的“单词”页面是背单词页面，可进行单词查看和背诵，当出现蓝色字体且内容为“加载上（下）一页”时点击可刷新词汇
+                    当前使用的词库单词不全，敬请期待后续更新加入新词库，当前词库为六级常用词汇
+                    \n\t七、主页的“我的”页面可点击昵称更改您的个性化昵称，点击头像可更换您的个性化头像，方式有拍照和相册提取
+                    \n\t八、主页的“我的词库”下有“我的英语词库”和“查看我的备忘”按钮，可点击获取服务，“查看我的备忘”是备忘录，方便您查看您的备忘
+                    \n\t九、注意：本软件会获取您的内存读写权限以满足存储和读写文件需求，本软件保证不非法获取您的个人信息
+                    \n\t十、本软件出现的问题以及软件功能一切解释权和版权归作者所有"/>
+    </ScrollView>
+</LinearLayout>

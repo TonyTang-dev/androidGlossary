@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_client"
+            android:icon="@drawable/data"
+            android:title="我的资料"/>
+        <item
+            android:id="@+id/nav_base"
+            android:icon="@drawable/check"
+            android:title="查看词库"/>
+        <item
+            android:id="@+id/nav_instruction"
+            android:icon="@drawable/instruction"
+            android:title="操作说明"/>
+    </group>
+</menu>

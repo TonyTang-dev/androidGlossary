@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/backup"
+        android:icon="@drawable/back"
+        android:title="Backup"
+        app:showAsAction="always"
+        android:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/exit"
+        android:title="Mainpage"
+        android:textSize="18dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/select"
+        android:title="卡片布局"
+        android:textSize="18dp"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#fff"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+            <!--<com.test.yingfunews.TitleLayout-->
+            <!--    android:layout_width="match_parent"-->
+            <!--    android:layout_height="wrap_content"/>-->
+            <!--引入标题头布局，包名要写完全-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:id="@+id/finddesti"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#8000"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:visibility="gone"
+                    android:textSize="16sp"
+                    android:padding="30dp"
+                    android:textColor="#fff"
+                    android:layout_marginRight="10dp"/>
+            </FrameLayout>
+            <!--加载判断类，判断单页双页-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"/>
+
+            <include layout="@layout/bottom_layout"/>
+        </LinearLayout>
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/fab"-->
+<!--            android:layout_gravity="bottom|end"-->
+<!--            android:layout_marginRight="16dp"-->
+<!--            android:layout_marginBottom="70dp"-->
+<!--            android:src="@drawable/back"-->
+<!--            android:elevation="8dp"/>-->
+    </FrameLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/nav_menu"
+        app:headerLayout="@layout/nav_header"/>
+</androidx.drawerlayout.widget.DrawerLayout>
