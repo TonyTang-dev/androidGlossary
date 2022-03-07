@@ -19,6 +19,6 @@
 
 3、实现了侧滑菜单，丰富了界面点击事件
 
-4、同步提交gitee仓库，地址：
+4、同步提交gitee仓库，地址：https://gitee.com/TangGarlic/androidGlossary
 
 5、禁止将源码用于非法用途，项目解释权归作者所有。
